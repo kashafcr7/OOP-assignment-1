@@ -2,12 +2,12 @@
 using namespace std;
 
 class Students {
-public:
+
     string Name;
     string Roll_no;
     int age;
     float gpa;
-
+public:
     Students();
     Students(string n, string r, int a, float g);
 
@@ -17,4 +17,5 @@ public:
 
     ~Students();
 };
+
 
