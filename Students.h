@@ -2,7 +2,7 @@
 using namespace std;
 
 class Students {
-
+private:
     string Name;
     string Roll_no;
     int age;
@@ -17,5 +17,6 @@ public:
 
     ~Students();
 };
+
 
 
